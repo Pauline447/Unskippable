@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SkipButtonBehaviour_MoveAway : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
 
     private bool m_pushback = false;
 
+    private bool m_buttonClickable;
+
     private Coroutine m_pushBackWaitRoutine;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -20,12 +23,15 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
     {
         m_player = PlayerController.Instance;
         m_repelSpeed = m_repelSpeedValue;
+        m_buttonClickable = false;
+
+        PlayerController.Instance.OnInteract += CheckHit;
     }
 
     // Update is called once per frame
     void Update()
     {
-        m_playerPos = m_player.GetPlayerPos();
+        m_playerPos = m_player.transform.position;
 
         float distanceBetweenPosPlayer = Vector3.Distance(transform.position, m_playerPos);
 
@@ -129,10 +135,12 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
         {
             Debug.Log("Sticky");
             m_repelSpeed = 0.7f;
+            m_buttonClickable = true;
+            PlayerController.Instance.GetComponent<Collider2D>().enabled = false;
         }
         if (collision.gameObject.tag == "Fast")
         {
-            m_repelSpeed = 30f;
+            m_repelSpeed = 70f;
             m_pushback = true;
 
             if (m_pushBackWaitRoutine != null)
@@ -141,6 +149,10 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
             }
             m_pushBackWaitRoutine = StartCoroutine(PushBackTimer(0.3f));
         }
+        if(collision.gameObject.tag == "Color")
+        {
+            GetComponentInChildren<SpriteRenderer>().color = Color.blue;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -148,6 +160,20 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
         if (collision.gameObject.tag == "Sticky" || collision.gameObject.tag == "Fast")
         {
             m_repelSpeed = m_repelSpeedValue;
+            m_buttonClickable = false;
+            PlayerController.Instance.GetComponent<Collider2D>().enabled = true;
+        }
+    }
+
+    private void CheckHit()
+    {
+        m_playerPos = m_player.transform.position;
+
+        float distanceBetweenPosPlayer = Vector3.Distance(transform.position, m_playerPos);
+        if (distanceBetweenPosPlayer <1f&& m_buttonClickable)
+        {
+            AdManager.Instance.StartNextAd();
+            Debug.Log("ButtonClicked");
         }
     }
 

@@ -7,6 +7,7 @@ TagManager:
   - Wall
   - Sticky
   - Fast
+  - Color
   layers:
   - Default
   - TransparentFX
@@ -44,11 +45,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UI
-    uniqueID: 2609955033
-    locked: 0
   - name: Demon
     uniqueID: 2872909969
+    locked: 0
+  - name: UI
+    uniqueID: 2609955033
     locked: 0
   m_RenderingLayers:
   - Default
