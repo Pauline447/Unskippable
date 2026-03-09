@@ -4,36 +4,38 @@ using UnityEngine;
 public class SkipButtonBehaviour_MoveAway : MonoBehaviour
 {
     [SerializeField] private float m_maxDistance;
-    [SerializeField] private float m_repelSpeed;
+    [SerializeField] private float m_repelSpeedValue;
 
     private PlayerController m_player;
+    private float m_repelSpeed;
     private Vector3 m_playerPos;
     private Vector3 m_direction;
 
-    private bool m_pushbackFromWall = false;
+    private bool m_pushback = false;
 
-    private Coroutine m_pushBackWallWaitRoutine;
+    private Coroutine m_pushBackWaitRoutine;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         m_player = PlayerController.Instance;
+        m_repelSpeed = m_repelSpeedValue;
     }
 
     // Update is called once per frame
     void Update()
     {
         m_playerPos = m_player.GetPlayerPos();
-        
+
         float distanceBetweenPosPlayer = Vector3.Distance(transform.position, m_playerPos);
 
-        if(distanceBetweenPosPlayer < m_maxDistance && !m_pushbackFromWall)
+        if(distanceBetweenPosPlayer < m_maxDistance && !m_pushback)
         {
             m_direction = (transform.position - m_playerPos).normalized;
             transform.position += m_direction * m_repelSpeed * Time.deltaTime;
         }
 
-        if(m_pushbackFromWall)
+        if(m_pushback)
         {
             transform.position += m_direction * m_repelSpeed * Time.deltaTime;
         }
@@ -43,17 +45,13 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
     {
         if(collision.gameObject.tag == "Wall")
         {
-          
-
             Vector2 normal = collision.contacts[0].normal;
             m_direction = Vector2.Reflect(m_direction, normal).normalized;
-            Debug.Log("direction pushback" + m_direction);
 
             //switch different walls
             switch (collision.gameObject.name)
             {
                 case "Left":
-                    Debug.Log("Left Wall");
                     if (m_direction.x > 0.90)
                     {
                         float y = 0;
@@ -66,11 +64,9 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
                             y = -1f;
                         }
                         m_direction = new Vector2(0f, y);
-                        Debug.Log("Edge Case Left Wall towards player");
                     }
                     break;
                 case "Right":
-                    Debug.Log("Right Wall");
                     if (m_direction.x < -0.90)
                     {
                         float y = 0;
@@ -83,11 +79,9 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
                             y = -1f;
                         }
                         m_direction = new Vector2(0f, y);
-                        Debug.Log("Edge Case Right Wall towards player");
                     }
                     break;
                 case "Up":
-                    Debug.Log("Up Wall");
                     if (m_direction.y < -0.90)
                     {
                         float x = 0;
@@ -100,12 +94,9 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
                             x = -1f;
                         }
                         m_direction = new Vector2(x, -0f);
-                        Debug.Log("Edge Case Down Wall towards player");
                     }
                     break;
                 case "Down":
-                    Debug.Log("Down Wall");
-
                     if (m_direction.y > 0.90)
                     {
                         float x = 0;
@@ -118,25 +109,52 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
                             x = -1f;
                         }
                         m_direction = new Vector2(x, 0f);
-                        Debug.Log("Edge Case Up Wall towards player");
                     }
                     break;
             }
 
-            m_pushbackFromWall = true;
+            m_pushback = true;
 
-            if(m_pushBackWallWaitRoutine!= null)
+            if(m_pushBackWaitRoutine!= null)
             {
-                StopCoroutine(m_pushBackWallWaitRoutine);
+                StopCoroutine(m_pushBackWaitRoutine);
             }
-            m_pushBackWallWaitRoutine = StartCoroutine(PushBackFromWalltimer());
+            m_pushBackWaitRoutine = StartCoroutine(PushBackTimer(0.1f));
         }
     }
 
-    private IEnumerator PushBackFromWalltimer()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        yield return new WaitForSeconds(0.1f);
-        m_pushbackFromWall = false;
+        if (collision.gameObject.tag == "Sticky")
+        {
+            Debug.Log("Sticky");
+            m_repelSpeed = 0.7f;
+        }
+        if (collision.gameObject.tag == "Fast")
+        {
+            m_repelSpeed = 30f;
+            m_pushback = true;
+
+            if (m_pushBackWaitRoutine != null)
+            {
+                StopCoroutine(m_pushBackWaitRoutine);
+            }
+            m_pushBackWaitRoutine = StartCoroutine(PushBackTimer(0.3f));
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Sticky" || collision.gameObject.tag == "Fast")
+        {
+            m_repelSpeed = m_repelSpeedValue;
+        }
+    }
+
+    private IEnumerator PushBackTimer(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        m_pushback = false;
     }
 }
 
