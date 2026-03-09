@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -43,6 +44,9 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2609955033
+    locked: 0
+  - name: Demon
+    uniqueID: 2872909969
     locked: 0
   m_RenderingLayers:
   - Default
