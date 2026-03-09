@@ -43,8 +43,86 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
     {
         if(collision.gameObject.tag == "Wall")
         {
+          
+
             Vector2 normal = collision.contacts[0].normal;
             m_direction = Vector2.Reflect(m_direction, normal).normalized;
+            Debug.Log("direction pushback" + m_direction);
+
+            //switch different walls
+            switch (collision.gameObject.name)
+            {
+                case "Left":
+                    Debug.Log("Left Wall");
+                    if (m_direction.x > 0.90)
+                    {
+                        float y = 0;
+                        if(transform.position.y <0)
+                        {
+                            y = 1f;
+                        }
+                        else
+                        {
+                            y = -1f;
+                        }
+                        m_direction = new Vector2(0f, y);
+                        Debug.Log("Edge Case Left Wall towards player");
+                    }
+                    break;
+                case "Right":
+                    Debug.Log("Right Wall");
+                    if (m_direction.x < -0.90)
+                    {
+                        float y = 0;
+                        if (transform.position.y < 0)
+                        {
+                            y = 1f;
+                        }
+                        else
+                        {
+                            y = -1f;
+                        }
+                        m_direction = new Vector2(0f, y);
+                        Debug.Log("Edge Case Right Wall towards player");
+                    }
+                    break;
+                case "Up":
+                    Debug.Log("Up Wall");
+                    if (m_direction.y < -0.90)
+                    {
+                        float x = 0;
+                        if (transform.position.x < 0)
+                        {
+                            x = 1f;
+                        }
+                        else
+                        {
+                            x = -1f;
+                        }
+                        m_direction = new Vector2(x, -0f);
+                        Debug.Log("Edge Case Down Wall towards player");
+                    }
+                    break;
+                case "Down":
+                    Debug.Log("Down Wall");
+
+                    if (m_direction.y > 0.90)
+                    {
+                        float x = 0;
+                        if (transform.position.x < 0)
+                        {
+                            x = 1f;
+                        }
+                        else
+                        {
+                            x = -1f;
+                        }
+                        m_direction = new Vector2(x, 0f);
+                        Debug.Log("Edge Case Up Wall towards player");
+                    }
+                    break;
+            }
+
             m_pushbackFromWall = true;
 
             if(m_pushBackWallWaitRoutine!= null)
