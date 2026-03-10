@@ -1,18 +1,8 @@
 using UnityEngine;
 
-public class DemonBehaviour_Ad2 : MonoBehaviour
+public class DemonBehaviour_Ad2 : DemonBehaviour
 {
     [SerializeField] private GameObject m_skipButton;
-    private Animator m_anim;
-    private void Start()
-    {
-        m_anim = GetComponent<Animator>();
-    }
-    public void AnimationEventSetNewRandomIdle()
-    {
-        int rand = Random.Range(1, 3);
-        m_anim.SetInteger("randIdle", rand);
-    }
 
     public void SetHolyWaterTrue()
     {
