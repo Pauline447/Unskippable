@@ -16,7 +16,7 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    private void OnEnable()
+    private void Start()
     {
         m_repelSpeed = m_repelSpeedValue;
     }
@@ -128,7 +128,7 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
         {
             Debug.Log("Sticky");
             m_repelSpeed = 0.7f;
-            m_buttonClickable = true;
+            ButtonClickable = true;
             PlayerController.Instance.GetComponent<Collider2D>().enabled = false;
         }
         if (collision.gameObject.tag == "Fast")
@@ -153,7 +153,7 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
         if (collision.gameObject.tag == "Sticky" || collision.gameObject.tag == "Fast")
         {
             m_repelSpeed = m_repelSpeedValue;
-            m_buttonClickable = false;
+            ButtonClickable = false;
             PlayerController.Instance.GetComponent<Collider2D>().enabled = true;
         }
     }

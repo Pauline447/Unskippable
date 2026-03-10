@@ -9,6 +9,11 @@ public class SkipButtonBehaviour_Ad2 : SkipButtonBehaviour
 
     void Update()
     {
+        if(ButtonClickable)
+        { 
+            return;
+        }
+
         m_playerPos = m_player.transform.position;
 
         float distanceBetweenPosPlayer = Vector3.Distance(transform.position, m_playerPos);
