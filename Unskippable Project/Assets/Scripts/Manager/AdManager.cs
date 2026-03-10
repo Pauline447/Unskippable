@@ -4,8 +4,11 @@ using UnityEngine;
 public class AdManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> m_screens;
-    private int m_currentScreen = 0;
+    [SerializeField] private List<GameObject> m_screenUIs;
+    [SerializeField] private GameObject m_skipTimer;
+    public int m_currentScreen = 0; //Debug
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject SkipTimer { get => m_skipTimer; set => m_skipTimer = value; }
 
     #region Singelton
     private static AdManager instance;
@@ -21,6 +24,8 @@ public class AdManager : MonoBehaviour
             return instance;
         }
     }
+
+
     private void Awake()
     {
         if (instance != null)
@@ -31,6 +36,17 @@ public class AdManager : MonoBehaviour
         instance = this;
     }
     #endregion
+
+    private void Start()
+    {
+        for (int i = 0; i < m_screens.Count; i++)
+        {
+            m_screens[i].SetActive(false);
+            m_screenUIs[i].SetActive(false);
+        }
+        m_screens[m_currentScreen].SetActive(true);
+        m_screenUIs[m_currentScreen].SetActive(true);
+    }
     public void StartNextAd()
     {
         if(m_currentScreen==m_screens.Count)
@@ -43,7 +59,10 @@ public class AdManager : MonoBehaviour
         for (int i = 0; i< m_screens.Count; i++)
         {
            m_screens[i].SetActive(false);
+           m_screenUIs[i].SetActive(false);
         }
         m_screens[m_currentScreen].SetActive(true);
+        m_screenUIs[m_currentScreen].SetActive(true);
+
     }
 }

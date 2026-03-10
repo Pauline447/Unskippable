@@ -1,30 +1,24 @@
 using System.Collections;
 using UnityEngine;
 
-public class SkipButtonBehaviour_MoveAway : MonoBehaviour
+public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
 {
     [SerializeField] private float m_maxDistance;
     [SerializeField] private float m_repelSpeedValue;
 
-    private PlayerController m_player;
     private float m_repelSpeed;
-    private Vector3 m_playerPos;
     private Vector3 m_direction;
 
     private bool m_pushback = false;
 
-    private bool m_buttonClickable;
 
     private Coroutine m_pushBackWaitRoutine;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        m_player = PlayerController.Instance;
-        m_repelSpeed = m_repelSpeedValue;
-        m_buttonClickable = false;
 
-        PlayerController.Instance.OnInteract += CheckHit;
+    private void OnEnable()
+    {
+        m_repelSpeed = m_repelSpeedValue;
     }
 
     // Update is called once per frame
@@ -161,18 +155,6 @@ public class SkipButtonBehaviour_MoveAway : MonoBehaviour
             m_repelSpeed = m_repelSpeedValue;
             m_buttonClickable = false;
             PlayerController.Instance.GetComponent<Collider2D>().enabled = true;
-        }
-    }
-
-    private void CheckHit()
-    {
-        m_playerPos = m_player.transform.position;
-
-        float distanceBetweenPosPlayer = Vector3.Distance(transform.position, m_playerPos);
-        if (distanceBetweenPosPlayer <1f&& m_buttonClickable)
-        {
-            AdManager.Instance.StartNextAd();
-            Debug.Log("ButtonClicked");
         }
     }
 

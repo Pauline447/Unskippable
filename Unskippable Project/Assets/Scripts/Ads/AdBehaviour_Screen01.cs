@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AdBehaviour_Screen01 : MonoBehaviour
+public class AdBehaviour_Screen01 : AdBehaviour
 {
     [SerializeField] private List<GameObject> m_reviewPrefabs;
     [SerializeField] private List<Transform> m_reviewPos;
