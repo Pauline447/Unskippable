@@ -18,6 +18,7 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
 
     private void Start()
     {
+        m_player = PlayerController.Instance;
         m_repelSpeed = m_repelSpeedValue;
     }
 
@@ -126,7 +127,6 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
     {
         if (collision.gameObject.tag == "Sticky")
         {
-            Debug.Log("Sticky");
             m_repelSpeed = 0.7f;
             ButtonClickable = true;
             PlayerController.Instance.GetComponent<Collider2D>().enabled = false;
