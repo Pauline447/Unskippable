@@ -1,16 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class AdBehaviour_Screen02 : AdBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected override IEnumerator AppearingRoutine()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        yield return new WaitForSeconds(8f);
+        MakeReviewAppear(0);
     }
 }
