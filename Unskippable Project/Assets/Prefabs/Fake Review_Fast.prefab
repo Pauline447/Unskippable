@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_text
-      value: 'Fast
+      value: 'Makes my mind go <size=20> <i>FAST </i></size> l!!!!
 
 '
       objectReference: {fileID: 0}
