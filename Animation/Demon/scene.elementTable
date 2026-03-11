@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<elements source="Harmony Premium (HarmonyPremium.exe) version 24.0.1 build 23019 2024-07-20 09:57:32" version="2401" build="23019">
- <element id="1" elementName="Head" elementFolder="Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="9" elementName="posePhone" elementFolder="posePhone" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
- <element id="10" elementName="hair" elementFolder="hair" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="11" elementName="body" elementFolder="body" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="12" elementName="Screenshot_2026" elementFolder="Screenshot_2026.12" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
-</elements>
