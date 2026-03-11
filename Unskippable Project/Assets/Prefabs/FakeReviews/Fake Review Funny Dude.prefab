@@ -32,10 +32,13 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_text
-      value: 'My Life became so much better after I joined <color=red><size=20> so
-        quickly!!</color></size> '
+      value: text
       objectReference: {fileID: 0}
     - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_fontSize
@@ -91,7 +94,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4087582525594088780, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_text
-      value: '@FunnyMan89'
+      value: '@tag'
       objectReference: {fileID: 0}
     - target: {fileID: 4980315598382766907, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Sprite
