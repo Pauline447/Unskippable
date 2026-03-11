@@ -5,9 +5,6 @@ TextureImporter:
   - first:
       213: -7180395662807863502
     second: eatButton-0014_0
-  - first:
-      213: 3715362236331216723
-    second: eatButton-0014_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,28 +121,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: eatButton-0014_1
-      rect:
-        serializedVersion: 2
-        x: 1546
-        y: 34
-        width: 313
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35f4c64e44e9f8330800000000000000
-      internalID: 3715362236331216723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -161,7 +136,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       eatButton-0014_0: -7180395662807863502
-      eatButton-0014_1: 3715362236331216723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
