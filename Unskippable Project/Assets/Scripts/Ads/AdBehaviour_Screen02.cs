@@ -7,6 +7,6 @@ public class AdBehaviour_Screen02 : AdBehaviour
     protected override IEnumerator AppearingRoutine()
     {
         yield return new WaitForSeconds(8f);
-        MakeReviewAppear(0);
+        MakeAppear(0);
     }
 }

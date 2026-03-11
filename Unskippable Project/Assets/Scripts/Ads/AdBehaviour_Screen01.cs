@@ -6,11 +6,26 @@ public class AdBehaviour_Screen01 : AdBehaviour
 {
     protected override IEnumerator AppearingRoutine()
     {
-        yield return new WaitForSeconds(6f);
-        MakeReviewAppear(0);
-        yield return new WaitForSeconds(5f);
-        MakeReviewAppear(1);
+        Debug.Log("Restart Routine");
+        MakeAppear(0);
+        yield return new WaitForSeconds(0.5f);
+        MakeAppear(1);
+
         yield return new WaitForSeconds(10f);
-        MakeReviewAppear(2);
+
+        MakeAppear(2);
+        yield return new WaitForSeconds(0.5f);
+        MakeAppear(3);
+
+        yield return new WaitForSeconds(8f);
+        MakeAppear(0);
+        yield return new WaitForSeconds(0.5f);
+        MakeAppear(1);
+
+        yield return new WaitForSeconds(8f);
+        MakeAppear(4);
+
+        StopCoroutine(m_appearingRoutine);
+        m_appearingRoutine = StartCoroutine(AppearingRoutine());
     }
 }

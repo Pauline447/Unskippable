@@ -12,7 +12,7 @@ public class AdBehaviour : MonoBehaviour
     [SerializeField] private List<Transform> m_Pos;
     [SerializeField] private Transform m_parent;
 
-    private Coroutine m_appearingRoutine;
+    protected Coroutine m_appearingRoutine;
 
     private void OnEnable()
     {
@@ -31,7 +31,7 @@ public class AdBehaviour : MonoBehaviour
         m_appearingRoutine = StartCoroutine(AppearingRoutine());
     }
 
-    public void MakeReviewAppear(int reviewInt)
+    public void MakeAppear(int reviewInt)
     {
         GameObject review = Instantiate(m_Prefabs[reviewInt], m_parent);
         review.transform.position = m_Pos[reviewInt].position;
