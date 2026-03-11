@@ -49,7 +49,7 @@ public class AdManager : MonoBehaviour
     }
     public void StartNextAd()
     {
-        if(m_currentScreen==m_screens.Count)
+        if(m_currentScreen==m_screens.Count -1)
         {
             Debug.Log("No more screens");
             return;

@@ -5,7 +5,7 @@ using UnityEngine;
 public class AdBehaviour : MonoBehaviour
 {
     [SerializeField] UI_TimerText m_skipTimer;
-    [SerializeField] int m_currentAd;
+    [SerializeField] int m_currentAdID;
 
     [SerializeField] private bool m_appearingObjs;
     [SerializeField] private List<GameObject> m_Prefabs;
@@ -17,7 +17,7 @@ public class AdBehaviour : MonoBehaviour
     private void OnEnable()
     {
         m_skipTimer.gameObject.SetActive(true);
-        m_skipTimer.CurrentAd = m_currentAd;
+        m_skipTimer.CurrentAd = m_currentAdID;
 
         if(!m_appearingObjs)
         {
