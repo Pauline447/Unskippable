@@ -23,7 +23,7 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         m_playerPos = m_player.transform.position;
 
@@ -123,6 +123,7 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
         }
     }
 
+    private int m_prevRand;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Sticky")
@@ -144,7 +145,36 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
         }
         if(collision.gameObject.tag == "Color")
         {
-            GetComponentInChildren<SpriteRenderer>().color = Color.blue;
+            int rand = Random.Range(1, 5);
+
+            if (m_prevRand == rand)
+            {
+                if (rand != 4)
+                {
+                    rand++;
+                }
+                else
+                {
+                    rand--;
+                }
+            }
+            m_prevRand = rand;
+
+            switch (rand)
+            {
+                case 1:
+                    GetComponentInChildren<SpriteRenderer>().color = Color.blue;
+                    break;
+                case 2:
+                    GetComponentInChildren<SpriteRenderer>().color = Color.red;
+                    break;
+                case 3:
+                    GetComponentInChildren<SpriteRenderer>().color = Color.darkGreen;
+                    break;
+                case 4:
+                    GetComponentInChildren<SpriteRenderer>().color = Color.purple;
+                    break;
+            }
         }
     }
 
