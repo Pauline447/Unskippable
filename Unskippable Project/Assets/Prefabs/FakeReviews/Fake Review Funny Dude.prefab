@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3910301910068620478, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -48,9 +60,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4087582525594088780, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_text
+      value: '@FunnyMan89'
+      objectReference: {fileID: 0}
     - target: {fileID: 5966009506494483346, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Name
-      value: Fake Review
+      value: Fake Review Funny Dude
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
