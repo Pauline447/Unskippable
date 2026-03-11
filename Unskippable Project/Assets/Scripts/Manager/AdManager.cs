@@ -39,6 +39,8 @@ public class AdManager : MonoBehaviour
 
     private void Start()
     {
+        m_skipTimer.SetActive(true);
+
         for (int i = 0; i < m_screens.Count; i++)
         {
             m_screens[i].SetActive(false);

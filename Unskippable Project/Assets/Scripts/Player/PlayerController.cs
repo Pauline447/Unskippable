@@ -10,9 +10,12 @@ public class PlayerController : MonoBehaviour
 
     private InputAction m_interactAction; //click screen
     private InputAction m_positionAction; //mouse position
-    
+
+    private bool m_playerInControl = true;
+
     public event Action OnInteract;
     public event Action OnInteractionStopped;
+    public bool PlayerInControl { get => m_playerInControl; set => m_playerInControl = value; }
 
     #region Singelton
     private static PlayerController instance;
@@ -28,6 +31,7 @@ public class PlayerController : MonoBehaviour
             return instance;
         }
     }
+
 
     #endregion
     private void Awake()
@@ -97,6 +101,11 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if(!PlayerInControl)
+        {
+            return;
+        }
+
         Vector3 target = GetPlayerPos();
 
         transform.position = Vector3.MoveTowards(
