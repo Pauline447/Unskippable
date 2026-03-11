@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5471612622168027310, guid: d9f9d9d96144564448d5d850c3c7728f, type: 3}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
@@ -64,9 +68,45 @@ PrefabInstance:
       propertyPath: m_text
       value: '@FunnyMan89'
       objectReference: {fileID: 0}
+    - target: {fileID: 4980315598382766907, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9018966214312966204, guid: c5aa66ae86addbd42bab1ec50ef3430f, type: 3}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.30912
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.294906
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.401
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.16
+      objectReference: {fileID: 0}
     - target: {fileID: 5966009506494483346, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Name
       value: Fake Review Funny Dude
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.756975
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.78225
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.411
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.009
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

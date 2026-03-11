@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c07aad5beec277845891938d46f9f213
+guid: d08b91a0a6051fb42a7fcc3b6c94ddf3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7654720343366546561
-    second: funnyManPfpForReview_0
+      213: 5845217461436066031
+    second: funnyManPfpForReviewTest_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: funnyManPfpForReview_0
+      name: funnyManPfpForReviewTest_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7b4ea67768f4c590800000000000000
-      internalID: -7654720343366546561
+      spriteID: fe8aec7df426e1150800000000000000
+      internalID: 5845217461436066031
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      funnyManPfpForReview_0: -7654720343366546561
+      funnyManPfpForReviewTest_0: 5845217461436066031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
