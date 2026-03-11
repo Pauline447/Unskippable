@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: bd465566c542c1d4493c80c78c90313a
+guid: c8be3c2a715294c4d90ea18d3bd99d40
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 287999462966814373
-    second: eatButton-0043 1_0
+      213: 1885178482764561289
+    second: 2_Mukbang_HOLY_0
+  - first:
+      213: -6274647979011759796
+    second: 2_Mukbang_HOLY_1
+  - first:
+      213: 3129650485000343808
+    second: 2_Mukbang_HOLY_2
+  - first:
+      213: -8531177923914462938
+    second: 2_Mukbang_HOLY_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: eatButton-0043 1_0
+      name: 2_Mukbang_HOLY_0
       rect:
         serializedVersion: 2
-        x: 342
-        y: 73
-        width: 1235
-        height: 1007
+        x: 40
+        y: 66
+        width: 129
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a6e3a55cfd2ff300800000000000000
-      internalID: 287999462966814373
+      spriteID: 98b346b87df792a10800000000000000
+      internalID: 1885178482764561289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_Mukbang_HOLY_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 110
+        width: 134
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41a16858e8fbe8a0800000000000000
+      internalID: -6274647979011759796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_Mukbang_HOLY_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 137
+        width: 100
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0011395d880ce6b20800000000000000
+      internalID: 3129650485000343808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_Mukbang_HOLY_3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 166
+        width: 116
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6298c69d0ea2b9980800000000000000
+      internalID: -8531177923914462938
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      eatButton-0043 1_0: 287999462966814373
+      2_Mukbang_HOLY_0: 1885178482764561289
+      2_Mukbang_HOLY_1: -6274647979011759796
+      2_Mukbang_HOLY_2: 3129650485000343808
+      2_Mukbang_HOLY_3: -8531177923914462938
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
