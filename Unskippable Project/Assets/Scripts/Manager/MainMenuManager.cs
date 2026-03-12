@@ -1,11 +1,10 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
-using static UnityEngine.GraphicsBuffer;
+using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [SerializeField] private UnityEvent m_startGameEvent;
     [SerializeField] private float m_speedCutsceneCursor;
     [SerializeField] private Transform m_targetCutsceneCursor;
     [SerializeField] private GameObject m_fullScreen;
@@ -45,6 +44,6 @@ public class MainMenuManager : MonoBehaviour
     {
         m_fullScreen.SetActive(true);
         yield return new WaitForSeconds(2f);
-        m_startGameEvent.Invoke();
+        SceneManager.LoadScene(1);
     }
 }

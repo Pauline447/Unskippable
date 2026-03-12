@@ -26,8 +26,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_text
-      value: Your Content added <color=green><size=20> Color</color></size>  to 
-        my Life :)
+      value: Your Content added <size=30> <color=yellow>C</color><color=red>o</color><color=green>l</color><color=purple>o</color><color=orange>r</color></size> 
+        to  my Life :)
       objectReference: {fileID: 0}
     - target: {fileID: 3910301910068620478, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_LocalPosition.x

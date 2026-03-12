@@ -67,7 +67,6 @@ public class AdManager : MonoBehaviour
         m_screens[m_currentScreen].SetActive(true);
         m_screenUIs[m_currentScreen].SetActive(true);
 
-        Debug.Log("m_currentScreen"+ m_currentScreen);
         SoundManager.Instance.PlayMusic(m_currentScreen);
 
     }

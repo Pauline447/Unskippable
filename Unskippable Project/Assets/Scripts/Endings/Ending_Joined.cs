@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Ending_Joined : MonoBehaviour
 {
     [SerializeField] private GameObject m_obj;
@@ -39,9 +39,8 @@ public class Ending_Joined : MonoBehaviour
     {
         Application.Quit();
     }
-    public void ButtonEventReturn()
+    public void ButtonEventRestart()
     {
-       // m_obj.SetActive(false);
-        Debug.Log("Return");
+        SceneManager.LoadScene(0);
     }
 }
