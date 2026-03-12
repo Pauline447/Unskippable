@@ -32,6 +32,7 @@ public class UI_FillBar : MonoBehaviour
 
     public void EmptyBar()
     {
+        Debug.Log("Empty");
         m_slider.value = 0;
     }
 }

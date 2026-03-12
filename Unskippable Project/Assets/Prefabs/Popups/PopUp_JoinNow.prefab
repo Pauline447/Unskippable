@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5223162942997345298
+--- !u!1001 &66079839913544727
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,25 +8,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 213814794898633911, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 213814794898633911, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 213814794898633911, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5641509
-      objectReference: {fileID: 0}
-    - target: {fileID: 213814794898633911, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_Color.r
-      value: 0.76965517
-      objectReference: {fileID: 0}
     - target: {fileID: 232403718854696399, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
       propertyPath: m_Name
-      value: PopUp_EndOfDemo
+      value: PopUp
       objectReference: {fileID: 0}
     - target: {fileID: 498230590866628821, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
       propertyPath: m_Pivot.x
@@ -107,34 +91,6 @@ PrefabInstance:
     - target: {fileID: 498230590866628821, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1135450891151741053, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1203.8665
-      objectReference: {fileID: 0}
-    - target: {fileID: 1135450891151741053, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 6.076
-      objectReference: {fileID: 0}
-    - target: {fileID: 1610266774366748557, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_text
-      value: END OF DEMO
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773457645628812052, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0.00015259
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773457645628812052, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8965886316390934006, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8965886316390934006, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
-      propertyPath: m_Interactable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

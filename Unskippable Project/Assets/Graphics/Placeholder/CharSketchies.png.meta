@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 31676f1a35854264d9159f41e435e182
+guid: 74ec3800781671d4d876d2b2f174a08f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4778574150461028685
-    second: 3_Sad_FireLoop0042_0
+      213: -1300571863601198904
+    second: CharSketchies_0
+  - first:
+      213: 4870119835039944535
+    second: CharSketchies_1
+  - first:
+      213: 6339958892294817489
+    second: CharSketchies_2
+  - first:
+      213: -6103400984000828040
+    second: CharSketchies_3
+  - first:
+      213: -9024408397828439335
+    second: CharSketchies_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,19 +96,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,6 +110,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3_Sad_FireLoop0042_0
+      name: CharSketchies_0
       rect:
         serializedVersion: 2
-        x: 1445
-        y: 81
-        width: 418
-        height: 516
+        x: 491
+        y: 912
+        width: 13
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +166,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b608ecc0281fadb0800000000000000
-      internalID: -4778574150461028685
+      spriteID: 8c8ce21e7c073fde0800000000000000
+      internalID: -1300571863601198904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharSketchies_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 634
+        height: 910
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fc32ddf24269340800000000000000
+      internalID: 4870119835039944535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharSketchies_2
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 649
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6cfc1a50f0cf750800000000000000
+      internalID: 6339958892294817489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharSketchies_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 257
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d6cda642d5c4ba0800000000000000
+      internalID: -6103400984000828040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharSketchies_4
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 0
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d24263206cd2c280800000000000000
+      internalID: -9024408397828439335
       vertices: []
       indices: 
       edges: []
@@ -174,7 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      3_Sad_FireLoop0042_0: -4778574150461028685
+      CharSketchies_0: -1300571863601198904
+      CharSketchies_1: 4870119835039944535
+      CharSketchies_2: 6339958892294817489
+      CharSketchies_3: -6103400984000828040
+      CharSketchies_4: -9024408397828439335
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
