@@ -40,6 +40,7 @@ public class AdManager : MonoBehaviour
     private void Start()
     {
         m_skipTimer.SetActive(true);
+        SoundManager.Instance.PlayMusic(m_currentScreen);
 
         for (int i = 0; i < m_screens.Count; i++)
         {
@@ -65,6 +66,9 @@ public class AdManager : MonoBehaviour
         }
         m_screens[m_currentScreen].SetActive(true);
         m_screenUIs[m_currentScreen].SetActive(true);
+
+        Debug.Log("m_currentScreen"+ m_currentScreen);
+        SoundManager.Instance.PlayMusic(m_currentScreen);
 
     }
 }

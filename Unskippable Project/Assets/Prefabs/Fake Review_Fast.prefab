@@ -8,11 +8,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5471612622168027310, guid: d9f9d9d96144564448d5d850c3c7728f, type: 3}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_text
-      value: 'Makes my mind go <size=20> <i>FAST </i></size> l!!!!
-
-'
+      value: 'My Life became so much better after I joined <color=red><size=20> so
+        FAST!!</color></size> '
       objectReference: {fileID: 0}
     - target: {fileID: 3910301910068620478, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53,6 +68,30 @@ PrefabInstance:
     - target: {fileID: 3910301910068620478, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087582525594088780, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_text
+      value: '@FunnyMan89'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980315598382766907, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9018966214312966204, guid: c5aa66ae86addbd42bab1ec50ef3430f, type: 3}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.26966894
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25310883
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.3954
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1332
       objectReference: {fileID: 0}
     - target: {fileID: 5966009506494483346, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Name
