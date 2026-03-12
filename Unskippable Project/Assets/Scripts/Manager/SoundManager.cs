@@ -7,9 +7,6 @@ public class SoundManager : MonoBehaviour
 {
     [Header("Audio Sources")]
     [SerializeField] private AudioSource MusicSource;
-    [SerializeField] private AudioSource MusicSourceIntro;
-
-    [SerializeField] private AudioSource AmbientSource;
     [SerializeField] private List<AudioSource> soundEffectSources;
 
     [Header("Music")]
