@@ -18,8 +18,10 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
 
     private void Start()
     {
+        ButtonClickable = true;
         m_player = PlayerController.Instance;
         m_repelSpeed = m_repelSpeedValue;
+        GetComponent<Rigidbody2D>().gravityScale = 0f;
     }
 
     // Update is called once per frame
@@ -31,6 +33,7 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
 
         if(distanceBetweenPosPlayer < m_maxDistance && !m_pushback)
         {
+            GetComponent<Rigidbody2D>().gravityScale = 0.5f;
             m_direction = (transform.position - m_playerPos).normalized;
             transform.position += m_direction * m_repelSpeed * Time.deltaTime;
         }
@@ -128,9 +131,11 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
     {
         if (collision.gameObject.tag == "Sticky")
         {
-            m_repelSpeed = 0.7f;
+            m_repelSpeed = 0.2f;
             ButtonClickable = true;
             PlayerController.Instance.GetComponent<Collider2D>().enabled = false;
+            GetComponent<Rigidbody2D>().gravityScale = 0f;
+            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         }
         if (collision.gameObject.tag == "Fast")
         {
@@ -185,6 +190,7 @@ public class SkipButtonBehaviour_MoveAway : SkipButtonBehaviour
             m_repelSpeed = m_repelSpeedValue;
             ButtonClickable = false;
             PlayerController.Instance.GetComponent<Collider2D>().enabled = true;
+            GetComponent<Rigidbody2D>().gravityScale = 0.5f;
         }
     }
 
