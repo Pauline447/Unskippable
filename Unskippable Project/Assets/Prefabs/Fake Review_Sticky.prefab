@@ -8,9 +8,51 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 201.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 47.311
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.6945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486697377264037634, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 28.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486697377264037634, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 39.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6393112053349301080, guid: a49fab743ef921a47a7034af7dc00678, type: 3}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_text
-      value: Review truly <color=red><size=20> CAPTIVATING </color></size> channel!!!!
+      value: Your Mind is truly <color=red><size=20> CAPTIVATING </color></size>
+        as it is insightful, listening to you feels like discovering a beautifully
+        written book.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3910301910068620478, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52,6 +94,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4087582525594088780, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_text
+      value: '@HerrVonMuellerhof'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980315598382766907, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9018966214312966204, guid: c5aa66ae86addbd42bab1ec50ef3430f, type: 3}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.30371308
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.29988396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1121
+      objectReference: {fileID: 0}
     - target: {fileID: 5966009506494483346, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Name
       value: Fake Review_Sticky
@@ -59,6 +125,14 @@ PrefabInstance:
     - target: {fileID: 5966009506494483346, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_TagString
       value: Sticky
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.756225
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3965
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
