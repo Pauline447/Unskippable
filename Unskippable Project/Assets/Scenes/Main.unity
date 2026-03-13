@@ -4328,6 +4328,10 @@ PrefabInstance:
       propertyPath: m_event.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1530647385}
+    - target: {fileID: 6409404349010178539, guid: ee61180906f55f4499fbce61e378645b, type: 3}
+      propertyPath: m_enoughTearsEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1530647385}
     - target: {fileID: 6802674270728610801, guid: ee61180906f55f4499fbce61e378645b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
