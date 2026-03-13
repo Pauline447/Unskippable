@@ -7,6 +7,7 @@ public class Ending_Popup : MonoBehaviour
 {
     [SerializeField] private List<GameObject> m_popUpPrefabs;
     [SerializeField] private RectTransform m_parent;
+    [SerializeField] UI_SpeedrunTimer m_speedrunTimer;
 
     private float m_timeBetweenSpawn = 0.2f;
     #region Singelton
@@ -38,6 +39,7 @@ public class Ending_Popup : MonoBehaviour
 
     private void Start()
     {
+        m_speedrunTimer.StopTimer();
         StartCoroutine(StartSpawnCoroutine());
     }
 
@@ -76,5 +78,10 @@ public class Ending_Popup : MonoBehaviour
         float y = Random.Range(-m_parent.rect.height / 2f, m_parent.rect.height / 2f);
 
         popupRect.anchoredPosition = new Vector2(x, y);
+
+        if(randPopUp == 0)
+        {
+            popup.GetComponent<UI_Popup>().Text.text = m_speedrunTimer.CurrentTime;
+        }
     }
 }
