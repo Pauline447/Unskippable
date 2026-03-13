@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 7771d5534f82b0e4288e8ff075c5d794
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2522776577067281947
+    second: 3_Sad_Rain0030_0
+  - first:
+      213: 3221977435289053386
+    second: 3_Sad_Rain0030_1
+  - first:
+      213: 199923567183199240
+    second: 3_Sad_Rain0030_2
+  - first:
+      213: -4476550471709129432
+    second: 3_Sad_Rain0030_3
+  - first:
+      213: -401970204213149323
+    second: 3_Sad_Rain0030_4
+  - first:
+      213: 2067990134368058335
+    second: 3_Sad_Rain0030_5
+  - first:
+      213: 7498491768437968306
+    second: 3_Sad_Rain0030_6
+  - first:
+      213: -3719738290099897377
+    second: 3_Sad_Rain0030_7
+  - first:
+      213: 2158335551315203526
+    second: 3_Sad_Rain0030_8
+  - first:
+      213: 6656726863431419896
+    second: 3_Sad_Rain0030_9
+  - first:
+      213: 1716263420107036123
+    second: 3_Sad_Rain0030_10
+  - first:
+      213: 9085323553141800770
+    second: 3_Sad_Rain0030_11
+  - first:
+      213: -676953353459973618
+    second: 3_Sad_Rain0030_12
+  - first:
+      213: -2516528705445366785
+    second: 3_Sad_Rain0030_13
+  - first:
+      213: -3903581595522486073
+    second: 3_Sad_Rain0030_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 843
+        width: 111
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e19a34c11c4dfcd0800000000000000
+      internalID: -2522776577067281947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 698
+        width: 394
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac86ab81863c6bc20800000000000000
+      internalID: 3221977435289053386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_2
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 613
+        width: 465
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cfe24dc6546c200800000000000000
+      internalID: 199923567183199240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_3
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 600
+        width: 479
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8258ba2501910e1c0800000000000000
+      internalID: -4476550471709129432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 393
+        width: 365
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571859f9a3aeb6af0800000000000000
+      internalID: -401970204213149323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 614
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb350e021af2bc10800000000000000
+      internalID: 2067990134368058335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_6
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 473
+        width: 147
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd8fe0e88eff0860800000000000000
+      internalID: 7498491768437968306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 229
+        width: 543
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb3d21bbb5d06cc0800000000000000
+      internalID: -3719738290099897377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_8
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 384
+        width: 179
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c55d32afb2f3fd10800000000000000
+      internalID: 2158335551315203526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_9
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 234
+        width: 565
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f741ad30d1716c50800000000000000
+      internalID: 6656726863431419896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_10
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 327
+        width: 204
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd51a78cc7461d710800000000000000
+      internalID: 1716263420107036123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_11
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 177
+        width: 140
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fb18ea2ad851e70800000000000000
+      internalID: 9085323553141800770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_12
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 141
+        width: 162
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02428df28afa96f0800000000000000
+      internalID: -676953353459973618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_13
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 176
+        width: 101
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3fadcb97e731dd0800000000000000
+      internalID: -2516528705445366785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Sad_Rain0030_14
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 0
+        width: 139
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0312f8831b3d9c0800000000000000
+      internalID: -3903581595522486073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      3_Sad_Rain0030_0: -2522776577067281947
+      3_Sad_Rain0030_1: 3221977435289053386
+      3_Sad_Rain0030_10: 1716263420107036123
+      3_Sad_Rain0030_11: 9085323553141800770
+      3_Sad_Rain0030_12: -676953353459973618
+      3_Sad_Rain0030_13: -2516528705445366785
+      3_Sad_Rain0030_14: -3903581595522486073
+      3_Sad_Rain0030_2: 199923567183199240
+      3_Sad_Rain0030_3: -4476550471709129432
+      3_Sad_Rain0030_4: -401970204213149323
+      3_Sad_Rain0030_5: 2067990134368058335
+      3_Sad_Rain0030_6: 7498491768437968306
+      3_Sad_Rain0030_7: -3719738290099897377
+      3_Sad_Rain0030_8: 2158335551315203526
+      3_Sad_Rain0030_9: 6656726863431419896
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
