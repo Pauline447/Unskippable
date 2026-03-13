@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 95b0105e4230e9a41a4edc4d3df61ef9
+guid: e03947d3d27e3f947b243702e74c2f81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8934584462973754049
-    second: puke-0001 1_0
-  - first:
-      213: 4533627376841586900
-    second: puke-0001 1_1
+      213: 8655727137326395970
+    second: nom-0035_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: puke-0001 1_0
+      name: nom-0035_0
       rect:
         serializedVersion: 2
-        x: 169
-        y: 692
-        width: 33
-        height: 39
+        x: 495
+        y: 7
+        width: 1123
+        height: 1073
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ca564b4b350efb70800000000000000
-      internalID: 8934584462973754049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: puke-0001 1_1
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 0
-        width: 1198
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d8f0ac341eaaee30800000000000000
-      internalID: 4533627376841586900
+      spriteID: 2427c0da8f15f1870800000000000000
+      internalID: 8655727137326395970
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      puke-0001 1_0: 8934584462973754049
-      puke-0001 1_1: 4533627376841586900
+      nom-0035_0: 8655727137326395970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

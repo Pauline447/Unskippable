@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: d98c44dae5963f14487cc7f2a76d5f1c
+guid: b644c2fe1fb98834b9bd63114519b2fd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7881604949783147034
-    second: puke-0024 1_0
-  - first:
-      213: -2361356185670795731
-    second: puke-0024 1_1
-  - first:
-      213: -2353456845015092271
-    second: puke-0024 1_2
-  - first:
-      213: -8384306613542743036
-    second: puke-0024 1_3
+      213: 6350646865005772934
+    second: nom-0041_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: puke-0024 1_0
+      name: nom-0041_0
       rect:
         serializedVersion: 2
-        x: 168
-        y: 692
-        width: 34
-        height: 39
+        x: 495
+        y: 0
+        width: 1123
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a12f8cb71f5116d60800000000000000
-      internalID: 7881604949783147034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: puke-0024 1_1
-      rect:
-        serializedVersion: 2
-        x: 409
-        y: 192
-        width: 1185
-        height: 888
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2ebbe46f07ca3fd0800000000000000
-      internalID: -2361356185670795731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: puke-0024 1_2
-      rect:
-        serializedVersion: 2
-        x: 911
-        y: 26
-        width: 339
-        height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d3f9a6f777d65fd0800000000000000
-      internalID: -2353456845015092271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: puke-0024 1_3
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 73
-        width: 422
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40493d39e85f4ab80800000000000000
-      internalID: -8384306613542743036
+      spriteID: 6800e923da7022850800000000000000
+      internalID: 6350646865005772934
       vertices: []
       indices: 
       edges: []
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      puke-0024 1_0: 7881604949783147034
-      puke-0024 1_1: -2361356185670795731
-      puke-0024 1_2: -2353456845015092271
-      puke-0024 1_3: -8384306613542743036
+      nom-0041_0: 6350646865005772934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
