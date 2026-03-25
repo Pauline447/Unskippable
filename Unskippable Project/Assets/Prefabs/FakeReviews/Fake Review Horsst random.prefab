@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5345450857780424055
+--- !u!1001 &645573318982924603
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,48 +9,48 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 43.49
+      value: 46.961
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 1784184558788534356, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.25
+      value: -1.5194
       objectReference: {fileID: 0}
     - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5471612622168027310, guid: d9f9d9d96144564448d5d850c3c7728f, type: 3}
+      objectReference: {fileID: 6066125201330477335, guid: 93405114a46fc374e9e5d5050c6e3592, type: 3}
+    - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.21960786
       objectReference: {fileID: 0}
     - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.21960786
       objectReference: {fileID: 0}
     - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.21960786
       objectReference: {fileID: 0}
     - target: {fileID: 2641906985352453813, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_text
-      value: text
-      objectReference: {fileID: 0}
-    - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_fontSize
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_fontStyle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2649845674651164950, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 16
+      value: "WHY  CAN\xB4T I SKIP THIS AD!?!?!"
       objectReference: {fileID: 0}
     - target: {fileID: 3910301910068620478, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_LocalPosition.x
@@ -94,47 +94,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4087582525594088780, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_text
-      value: '@tag'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4980315598382766907, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 9018966214312966204, guid: c5aa66ae86addbd42bab1ec50ef3430f, type: 3}
-    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.30912
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.294906
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.401
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784880579270866417, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.16
+      value: '@HansPeterHorst'
       objectReference: {fileID: 0}
     - target: {fileID: 5966009506494483346, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
       propertyPath: m_Name
-      value: Fake Review Funny Dude
-      objectReference: {fileID: 0}
-    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.756975
-      objectReference: {fileID: 0}
-    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.78225
-      objectReference: {fileID: 0}
-    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.411
-      objectReference: {fileID: 0}
-    - target: {fileID: 9019900842075643479, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.009
+      value: Fake Review Horsst random
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

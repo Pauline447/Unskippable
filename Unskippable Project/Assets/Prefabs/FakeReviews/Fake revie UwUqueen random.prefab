@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '@Tag'
+  m_text: '@UwU_QueenX3'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 00b8417108c685847959ddd40fc61f39, type: 2}
   m_sharedMaterial: {fileID: -2631096373187807215, guid: 00b8417108c685847959ddd40fc61f39, type: 2}
@@ -170,8 +170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.85, y: 0}
-  m_SizeDelta: {x: 201.71, y: 50}
+  m_AnchoredPosition: {x: 0.96, y: -4.23}
+  m_SizeDelta: {x: 204.13, y: 41.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1997202122388204100
 CanvasRenderer:
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Amazing.  <color=red><size=20> CAPTIVATING </color></size> '
+  m_text: "awww he\xB4s jusst a silly little Guy <3"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 00b8417108c685847959ddd40fc61f39, type: 2}
   m_sharedMaterial: {fileID: -2631096373187807215, guid: 00b8417108c685847959ddd40fc61f39, type: 2}
@@ -309,7 +309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.1851, y: -0.1109}
+  m_AnchoredPosition: {x: -0.1851, y: -0.1}
   m_SizeDelta: {x: 671.895, y: 43.9224}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3202614031921970345
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 5775993388683255655}
   - component: {fileID: 7038072684158388846}
   m_Layer: 0
-  m_Name: Fake Review
+  m_Name: Fake revie UwUqueen random
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -571,7 +571,7 @@ SpriteRenderer:
   m_SortingLayerID: -1685012263
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0bf6f3c39dfe134428bc43d8d50a834a, type: 3}
+  m_Sprite: {fileID: 9018966214312966204, guid: c5aa66ae86addbd42bab1ec50ef3430f, type: 3}
   m_Color: {r: 0.81886786, g: 0.81886786, b: 0.81886786, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -608,8 +608,8 @@ Transform:
   m_GameObject: {fileID: 8456988945604804145}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.457, y: 0.122, z: 0}
-  m_LocalScale: {x: 0.46, y: 0.46, z: 0.46}
+  m_LocalPosition: {x: -3.4089, y: 0.1305, z: 0}
+  m_LocalScale: {x: 0.2711233, y: 0.27381903, z: 0.46}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3910301910068620478}
@@ -661,7 +661,7 @@ SpriteRenderer:
   m_SortingLayerID: -1685012263
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 744159596567384634, guid: 292bffaf5ef4a17479616c9213295826, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
