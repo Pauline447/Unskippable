@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class AdBehaviour_Screen04 : AdBehaviour
 {
+    [SerializeField] private Animator m_animGiftBag;
     private List<FoodType> m_foodItemList;
     private void Start()
     {
@@ -72,7 +73,7 @@ public class AdBehaviour_Screen04 : AdBehaviour
                         m_foodItemList.Clear();
                     }
                     else
-                        Debug.Log("YOU DID IT!");
+                        m_animGiftBag.Play("GiftBagWon");
                     break;
             }
         }
