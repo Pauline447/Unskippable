@@ -439,19 +439,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   m_skipTimer: {fileID: 0}
   m_currentAdID: 0
-  m_appearingObjs: 1
+  m_appearingObjs: 0
   m_Prefabs:
   - {fileID: 4754544881527965234, guid: d89b3acccccc9f745983252e1f8916a0, type: 3}
+  - {fileID: 5966009506494483346, guid: 12de8ad60bb13124295bf1e22e402822, type: 3}
   - {fileID: 2174639744245309591, guid: 8b33968348aef45428ec1e88b5b42d77, type: 3}
+  - {fileID: 6502651997672927913, guid: 535579c0c6217fb40a0d4857a7d9194b, type: 3}
   - {fileID: 2174639744245309591, guid: 8b33968348aef45428ec1e88b5b42d77, type: 3}
-  - {fileID: 2174639744245309591, guid: 8b33968348aef45428ec1e88b5b42d77, type: 3}
-  - {fileID: 2174639744245309591, guid: 8b33968348aef45428ec1e88b5b42d77, type: 3}
+  - {fileID: 1793942498716559077, guid: 4e1961f37cbaf424c967f7c638d3256e, type: 3}
   m_Pos:
   - {fileID: 2546706286695286525}
   - {fileID: 1168081428207990350}
   - {fileID: 7066175317075383241}
   - {fileID: 3358384481023560165}
   - {fileID: 8595936713988579016}
+  - {fileID: 7066175317075383241}
   m_parent: {fileID: 7337297213269421913}
   m_bgRenderer: {fileID: 2218468956433548724}
   m_bgAfterIntro: {fileID: -8250703490372265667, guid: e7ea5c61f9ae4104c88c08f925f6a232, type: 3}
