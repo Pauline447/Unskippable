@@ -331,6 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21d6001f3bd94ea4cb675c19b9a86aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  m_randIdleRange: 3
 --- !u!95 &3595712383085123048
 Animator:
   serializedVersion: 7

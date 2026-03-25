@@ -6,6 +6,7 @@ public class Utility_OnTriggerEnter : MonoBehaviour
 {
     [SerializeField] private List<string> m_tag;
     [SerializeField] private bool m_destoryOtherObj;
+    [SerializeField] private bool m_destoryThisObj;
     [SerializeField] private List<UnityEvent> m_event;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,6 +21,10 @@ public class Utility_OnTriggerEnter : MonoBehaviour
                 if(m_destoryOtherObj)
                 {
                     Destroy(collision.gameObject);
+                }
+                if(m_destoryThisObj)
+                {
+                    Destroy(this.gameObject);
                 }
             }
         }

@@ -7,10 +7,10 @@ public class AdBehaviour : MonoBehaviour
     [SerializeField] UI_TimerText m_skipTimer;
     [SerializeField] int m_currentAdID;
 
-    [SerializeField] private bool m_appearingObjs;
-    [SerializeField] private List<GameObject> m_Prefabs;
-    [SerializeField] private List<Transform> m_Pos;
-    [SerializeField] private Transform m_parent;
+    [SerializeField] protected bool m_appearingObjs;
+    [SerializeField] protected List<GameObject> m_Prefabs;
+    [SerializeField] protected List<Transform> m_Pos;
+    [SerializeField] protected Transform m_parent;
 
     protected Coroutine m_appearingRoutine;
 
@@ -31,7 +31,7 @@ public class AdBehaviour : MonoBehaviour
         m_appearingRoutine = StartCoroutine(AppearingRoutine());
     }
 
-    public void MakeAppear(int reviewInt)
+    public virtual void MakeAppear(int reviewInt)
     {
         GameObject review = Instantiate(m_Prefabs[reviewInt], m_parent);
         review.transform.position = m_Pos[reviewInt].position;

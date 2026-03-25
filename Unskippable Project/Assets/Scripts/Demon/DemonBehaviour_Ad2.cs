@@ -4,10 +4,7 @@ public class DemonBehaviour_Ad2 : DemonBehaviour
 {
     [SerializeField] private GameObject m_skipButton;
     [SerializeField] private GameObject m_bottle;
-    private void Awake()
-    {
-        SetAnimRange(3);
-    }
+
     public void SetHolyWaterTrue()
     {
         m_anim.SetBool("holyWater", true);

@@ -372,6 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e8e1b9a242fd2c49a7c1871ddbc2a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  m_randIdleRange: 3
   m_skipButton: {fileID: 999567991798228008}
   m_bottle: {fileID: 5815227896322885973}
 --- !u!1 &2523241926005039819
