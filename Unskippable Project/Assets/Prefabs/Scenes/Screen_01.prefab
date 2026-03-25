@@ -453,6 +453,8 @@ MonoBehaviour:
   - {fileID: 3358384481023560165}
   - {fileID: 8595936713988579016}
   m_parent: {fileID: 7337297213269421913}
+  m_bgRenderer: {fileID: 2218468956433548724}
+  m_bgAfterIntro: {fileID: -8250703490372265667, guid: e7ea5c61f9ae4104c88c08f925f6a232, type: 3}
 --- !u!1 &3134516950758616824
 GameObject:
   m_ObjectHideFlags: 0

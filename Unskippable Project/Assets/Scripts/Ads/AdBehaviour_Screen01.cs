@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AdBehaviour_Screen01 : AdBehaviour
 {
+    [SerializeField] private SpriteRenderer m_bgRenderer;
+    [SerializeField] private Sprite m_bgAfterIntro;
     protected override IEnumerator AppearingRoutine()
     {
         Debug.Log("Restart Routine");
@@ -26,6 +28,17 @@ public class AdBehaviour_Screen01 : AdBehaviour
         MakeAppear(4);
 
         StopCoroutine(m_appearingRoutine);
+        m_appearingRoutine = StartCoroutine(AppearingRoutine());
+    }
+
+    public void AfterTimerEvent()
+    {
+        m_bgRenderer.sprite = m_bgAfterIntro;
+
+        if (m_appearingRoutine != null)
+        {
+            StopCoroutine(m_appearingRoutine);
+        }
         m_appearingRoutine = StartCoroutine(AppearingRoutine());
     }
 }

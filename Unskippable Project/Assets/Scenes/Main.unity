@@ -692,6 +692,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6128445872830337691}
+        m_TargetAssemblyTypeName: AdBehaviour_Screen01, Assembly-CSharp
+        m_MethodName: AfterTimerEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 981286129}
@@ -3252,7 +3264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1438234948
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5016,13 +5028,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1141590261}
     m_Modifications:
+    - target: {fileID: 2218468956433548724, guid: c622a3bc91859004cb4431cbc97d8bc6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d114dcce3d78d204a860a7d62475d0da, type: 3}
     - target: {fileID: 2562694190979469255, guid: c622a3bc91859004cb4431cbc97d8bc6, type: 3}
       propertyPath: m_Name
       value: Screen_01
       objectReference: {fileID: 0}
     - target: {fileID: 2562694190979469255, guid: c622a3bc91859004cb4431cbc97d8bc6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5232269171449334941, guid: c622a3bc91859004cb4431cbc97d8bc6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5068,11 +5084,26 @@ PrefabInstance:
       propertyPath: m_skipTimer
       value: 
       objectReference: {fileID: 133893429}
+    - target: {fileID: 5973576538592293466, guid: c622a3bc91859004cb4431cbc97d8bc6, type: 3}
+      propertyPath: m_appearingObjs
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c622a3bc91859004cb4431cbc97d8bc6, type: 3}
+--- !u!114 &6128445872830337691 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5973576538592293466, guid: c622a3bc91859004cb4431cbc97d8bc6, type: 3}
+  m_PrefabInstance: {fileID: 6128445872830337690}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859452777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d20e5f64106304699f717a0b7a3629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &7875255986063303823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5143,7 +5174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8029911931338602739, guid: 59d8d260a301ef148990b68bd6127efa, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
