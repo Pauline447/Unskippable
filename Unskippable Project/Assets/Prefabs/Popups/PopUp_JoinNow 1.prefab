@@ -11,10 +11,10 @@ PrefabInstance:
     - target: {fileID: 213814794898633911, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1e3ccaaea7ca702449e2e7de06cbbe27, type: 3}
+      objectReference: {fileID: 21300000, guid: 89ca5fbbcb0caca42935e70a9c85f0d0, type: 3}
     - target: {fileID: 232403718854696399, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
       propertyPath: m_Name
-      value: PopUp_JoinNow
+      value: PopUp_JoinNow 1
       objectReference: {fileID: 0}
     - target: {fileID: 498230590866628821, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
       propertyPath: m_Pivot.x
@@ -97,8 +97,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1135450891151741053, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1963
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135450891151741053, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1071
+      value: 2048
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135450891151741053, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135450891151741053, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135450891151741053, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 3773457645628812052, guid: 8454095fdfa71104a83996595d89ca4f, type: 3}
       propertyPath: m_SizeDelta.y

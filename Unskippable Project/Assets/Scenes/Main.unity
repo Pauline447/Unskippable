@@ -3029,7 +3029,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 560554621}
   m_HandleRect: {fileID: 0}
@@ -4496,6 +4496,8 @@ MonoBehaviour:
   - {fileID: 275681310004793816, guid: 535b1c2a9bf12734bae8c2b87911f06a, type: 3}
   - {fileID: 8675521953293229860, guid: 9b0a8f7356ea1d44fb420f57e573a99b, type: 3}
   - {fileID: 5423968884871358941, guid: 459548162dc99bc49b91325c7eaebf00, type: 3}
+  - {fileID: 8675521953293229860, guid: 1b9a18fd930074641ad66a4b16283077, type: 3}
+  - {fileID: 275681310004793816, guid: 20d4d3798c57e6b439915274991a396b, type: 3}
   m_parent: {fileID: 900774323}
   m_speedrunTimer: {fileID: 547319793}
 --- !u!1 &1928326818
@@ -5141,7 +5143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8029911931338602739, guid: 59d8d260a301ef148990b68bd6127efa, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5218,7 +5220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9152629264058152541, guid: ee61180906f55f4499fbce61e378645b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
